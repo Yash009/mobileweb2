@@ -1,0 +1,43 @@
+$fontcolor: black;
+$back: #c2c2a3;
+$bodyback:#bf4040;
+
+@mixin mainmargin($dim){
+margin: $dim;
+}
+
+.mainbody{
+    background-color: $bodyback;
+
+}
+.mainh1{
+    color:$back ;
+    text-align: center;
+
+}
+
+.col-md-3{
+   @include mainmargin(40px);
+    border: solid;
+    border-radius: 10px;
+    color:$fontcolor;
+    background: -webkit-linear-gradient(left,#b3ffb3, #279b5d);
+    background: -o-linear-gradient(right, #b3ffb3, #279b5d);
+    background: -moz-linear-gradient(right, #b3ffb3, #279b5d);
+    background: linear-gradient(to right, #b3ffb3, #279b5d);
+    position: absolute;
+  @media (max-width: 600px) {
+    padding: 0px;
+    margin-right: 1px;
+    margin-left: 1px;
+    
+  }
+}
+.imagestyle{
+    height: 230px;
+    width:230px;
+  @media (min-width: 990px) and (max-width: 1199px){
+    height: 190px;
+    width:190px;
+  }
+}

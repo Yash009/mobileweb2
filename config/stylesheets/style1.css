@@ -1,0 +1,44 @@
+/* line 9, ../sass/style1.scss */
+.mainbody {
+  background-color: #bf4040;
+}
+
+/* line 13, ../sass/style1.scss */
+.mainh1 {
+  color: #c2c2a3;
+  text-align: center;
+}
+
+/* line 19, ../sass/style1.scss */
+.col-md-3 {
+  margin: 40px;
+  border: solid;
+  border-radius: 10px;
+  color: black;
+  background: -webkit-linear-gradient(left, #b3ffb3, #279b5d);
+  background: -o-linear-gradient(right, #b3ffb3, #279b5d);
+  background: -moz-linear-gradient(right, #b3ffb3, #279b5d);
+  background: linear-gradient(to right, #b3ffb3, #279b5d);
+  position: absolute;
+}
+@media (max-width: 600px) {
+  /* line 19, ../sass/style1.scss */
+  .col-md-3 {
+    padding: 0px;
+    margin-right: 1px;
+    margin-left: 1px;
+  }
+}
+
+/* line 36, ../sass/style1.scss */
+.imagestyle {
+  height: 230px;
+  width: 230px;
+}
+@media (min-width: 990px) and (max-width: 1199px) {
+  /* line 36, ../sass/style1.scss */
+  .imagestyle {
+    height: 190px;
+    width: 190px;
+  }
+}
