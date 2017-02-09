@@ -5,6 +5,10 @@
   color: #c2c2a3;
   text-align: center; }
 
+.mainh2 {
+  color: #c2c2a3;
+  text-align: center; }
+
 .col-md-3 {
   margin: 40px;
   border: solid;
@@ -14,7 +18,10 @@
   background: -o-linear-gradient(right, #b3ffb3, #279b5d);
   background: -moz-linear-gradient(right, #b3ffb3, #279b5d);
   background: linear-gradient(to right, #b3ffb3, #279b5d);
-  position: absolute; }
+  position: absolute;
+  -moz-box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8); }
   @media (max-width: 600px) {
     .col-md-3 {
       padding: 0px;
